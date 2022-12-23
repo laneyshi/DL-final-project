@@ -14,21 +14,13 @@ To obtain the corrsponding figure, just run the .m files in \matlab_code\plot_co
 
 # hyper parameters
 LR_A = 0.0005 # learning rate for actor
-
 LR_C = 0.0005  # learning rate for critic
-
 GAMMA = 0.5  # reward discount
-
 TAU0 = 0.05  # soft replacement
-
 MEMORY_CAPACITY = np.int(2 * 1e4) # size of memory
-
 BATCH_SIZE = 32 # batch size
-
 CLIP_C = 5 # gradient clip for critic
-
 CLIP_A = 5 # gradient clip for actor
-
 DROPOUT_VALUE_TRAIN = 0.5 # drop out ratio
 
 # system paramters
